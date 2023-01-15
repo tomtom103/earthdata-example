@@ -41,5 +41,5 @@ def download_file(pool_url: str, out_file: _PathLike) -> bool:
 # Example
 # download_file("https://e4ftl01.cr.usgs.gov/VIIRS/VNP09GA.001/2018.07.02/VNP09GA.A2018183.h18v03.001.2018184074906.h5", "data/example.h5")
 
-file = h5py.File("data/example.h5", "r")
+file = h5py.File("data/VNP09GA.A2021290.h20v03.001.2021291082114.h5", "r")
 print(list(file.keys()))
