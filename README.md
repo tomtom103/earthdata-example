@@ -6,6 +6,8 @@ This repository contains some basic code examples of how to download and read th
 
 ### How to download and install the GDAL library
 
+**These steps are not required if you use conda as the libraries are shipped with the package**
+
 Here is what I have done on Ubuntu:
 
 ```bash
