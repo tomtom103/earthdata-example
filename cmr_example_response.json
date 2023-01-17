@@ -1,0 +1,378 @@
+{
+    "feed": {
+        "updated": "2023-01-17T19:27:19.698Z",
+        "id": "https://cmr.earthdata.nasa.gov:443/search/granules.json?concept_id=C1373412034-LPDAAC_ECS&temporal=2021-10-17T00:00:00Z,2021-10-19T00:00:00Z&page_size=10&page_num=100",
+        "title": "ECHO granule metadata",
+        "entry": [
+            {
+                "producer_granule_id": "VNP09GA.A2021292.h20v01.001.2021293105542.h5",
+                "time_start": "2021-10-19T00:00:00.000Z",
+                "updated": "2021-10-20T06:44:29.152Z",
+                "dataset_id": "VIIRS/NPP Surface Reflectance Daily L2G Global 1km and 500m SIN Grid V001",
+                "data_center": "LPDAAC_ECS",
+                "title": "SC:VNP09GA.001:2497471484",
+                "coordinate_system": "GEODETIC",
+                "day_night_flag": "UNSPECIFIED",
+                "time_end": "2021-10-19T23:59:59.000Z",
+                "id": "G2147095027-LPDAAC_ECS",
+                "original_format": "ECHO10",
+                "granule_size": "137.618",
+                "browse_flag": true,
+                "polygons": [
+                    [
+                        "67.5387 44.0559 68.3835 95.6578 39.828 -128.8568 79.533 63.9875 67.5387 44.0559"
+                    ]
+                ],
+                "collection_concept_id": "C1373412034-LPDAAC_ECS",
+                "online_access_flag": true,
+                "links": [
+                    {
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+                        "type": "application/x-hdfeos",
+                        "title": "VNP09GA.A2021292.h20v01.001.2021293105542.h5. MimeType: application/x-hdfeos",
+                        "hreflang": "en-US",
+                        "href": "https://e4ftl01.cr.usgs.gov//DP103/VIIRS/VNP09GA.001/2021.10.19/VNP09GA.A2021292.h20v01.001.2021293105542.h5"
+                    },
+                    {
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/browse#",
+                        "type": "image/jpeg",
+                        "title": "This Browse file may be downloaded directly from this link (BROWSE)",
+                        "hreflang": "en-US",
+                        "href": "https://e4ftl01.cr.usgs.gov//WORKING/BRWS/Browse.001/2021.10.20/BROWSE.VNP09GA.A2021292.h20v01.001.2021293105542.1.jpg"
+                    },
+                    {
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+                        "type": "text/xml",
+                        "title": "This Metadata file may be downloaded directly from this link (EXTENDED METADATA)",
+                        "hreflang": "en-US",
+                        "href": "https://e4ftl01.cr.usgs.gov//DP103/VIIRS/VNP09GA.001/2021.10.19/VNP09GA.A2021292.h20v01.001.2021293105542.h5.xml"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+                        "hreflang": "en-US",
+                        "href": "https://landweb.modaps.eosdis.nasa.gov/NPP_QA/"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+                        "hreflang": "en-US",
+                        "href": "https://doi.org/10.5067/VIIRS/VNP09GA.001"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+                        "hreflang": "en-US",
+                        "href": "https://e4ftl01.cr.usgs.gov/VIIRS/VNP09GA.001/"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+                        "hreflang": "en-US",
+                        "href": "https://earthexplorer.usgs.gov/"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+                        "hreflang": "en-US",
+                        "href": "https://search.earthdata.nasa.gov/search?q=C1373412034-LPDAAC_ECS"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+                        "hreflang": "en-US",
+                        "href": "https://opendap.cr.usgs.gov/opendap/hyrax/VNP09GA.001/contents.html"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+                        "hreflang": "en-US",
+                        "href": "https://lpdaac.usgs.gov/"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+                        "hreflang": "en-US",
+                        "href": "https://lpdaac.usgs.gov/documents/123/VNP09_User_Guide_V1.1.pdf"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+                        "hreflang": "en-US",
+                        "href": "https://lpdaac.usgs.gov/documents/124/VNP09_User_Guide_V1.6.pdf"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+                        "hreflang": "en-US",
+                        "href": "https://lpdaac.usgs.gov/documents/122/VNP09_ATBD.pdf"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+                        "hreflang": "en-US",
+                        "href": "https://appeears.earthdatacloud.nasa.gov/"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+                        "hreflang": "en-US",
+                        "href": "https://viirsland.gsfc.nasa.gov/Val/LSR_Val.html"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+                        "hreflang": "en-US",
+                        "href": "https://landweb.modaps.eosdis.nasa.gov/cgi-bin/NPP_QA/NPPpage.cgi?fileName=maturity&subdir=forPage#"
+                    }
+                ]
+            },
+            {
+                "producer_granule_id": "VNP09GA.A2021292.h16v16.001.2021293103107.h5",
+                "time_start": "2021-10-19T00:00:00.000Z",
+                "updated": "2021-10-20T06:48:27.861Z",
+                "dataset_id": "VIIRS/NPP Surface Reflectance Daily L2G Global 1km and 500m SIN Grid V001",
+                "data_center": "LPDAAC_ECS",
+                "title": "SC:VNP09GA.001:2497471488",
+                "coordinate_system": "GEODETIC",
+                "day_night_flag": "UNSPECIFIED",
+                "time_end": "2021-10-19T23:59:59.000Z",
+                "id": "G2147095742-LPDAAC_ECS",
+                "original_format": "ECHO10",
+                "granule_size": "382.337",
+                "browse_flag": true,
+                "polygons": [
+                    [
+                        "-78.7408 -125.3369 -80.0975 -57.82 -69.35 -28.4272 -69.0785 -61.2729 -78.7408 -125.3369"
+                    ]
+                ],
+                "collection_concept_id": "C1373412034-LPDAAC_ECS",
+                "online_access_flag": true,
+                "links": [
+                    {
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+                        "type": "application/x-hdfeos",
+                        "title": "VNP09GA.A2021292.h16v16.001.2021293103107.h5. MimeType: application/x-hdfeos",
+                        "hreflang": "en-US",
+                        "href": "https://e4ftl01.cr.usgs.gov//DP103/VIIRS/VNP09GA.001/2021.10.19/VNP09GA.A2021292.h16v16.001.2021293103107.h5"
+                    },
+                    {
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/browse#",
+                        "type": "image/jpeg",
+                        "title": "This Browse file may be downloaded directly from this link (BROWSE)",
+                        "hreflang": "en-US",
+                        "href": "https://e4ftl01.cr.usgs.gov//WORKING/BRWS/Browse.001/2021.10.20/BROWSE.VNP09GA.A2021292.h16v16.001.2021293103107.1.jpg"
+                    },
+                    {
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+                        "type": "text/xml",
+                        "title": "This Metadata file may be downloaded directly from this link (EXTENDED METADATA)",
+                        "hreflang": "en-US",
+                        "href": "https://e4ftl01.cr.usgs.gov//DP103/VIIRS/VNP09GA.001/2021.10.19/VNP09GA.A2021292.h16v16.001.2021293103107.h5.xml"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+                        "hreflang": "en-US",
+                        "href": "https://landweb.modaps.eosdis.nasa.gov/NPP_QA/"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+                        "hreflang": "en-US",
+                        "href": "https://doi.org/10.5067/VIIRS/VNP09GA.001"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+                        "hreflang": "en-US",
+                        "href": "https://e4ftl01.cr.usgs.gov/VIIRS/VNP09GA.001/"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+                        "hreflang": "en-US",
+                        "href": "https://earthexplorer.usgs.gov/"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+                        "hreflang": "en-US",
+                        "href": "https://search.earthdata.nasa.gov/search?q=C1373412034-LPDAAC_ECS"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+                        "hreflang": "en-US",
+                        "href": "https://opendap.cr.usgs.gov/opendap/hyrax/VNP09GA.001/contents.html"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+                        "hreflang": "en-US",
+                        "href": "https://lpdaac.usgs.gov/"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+                        "hreflang": "en-US",
+                        "href": "https://lpdaac.usgs.gov/documents/123/VNP09_User_Guide_V1.1.pdf"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+                        "hreflang": "en-US",
+                        "href": "https://lpdaac.usgs.gov/documents/124/VNP09_User_Guide_V1.6.pdf"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+                        "hreflang": "en-US",
+                        "href": "https://lpdaac.usgs.gov/documents/122/VNP09_ATBD.pdf"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+                        "hreflang": "en-US",
+                        "href": "https://appeears.earthdatacloud.nasa.gov/"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+                        "hreflang": "en-US",
+                        "href": "https://viirsland.gsfc.nasa.gov/Val/LSR_Val.html"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+                        "hreflang": "en-US",
+                        "href": "https://landweb.modaps.eosdis.nasa.gov/cgi-bin/NPP_QA/NPPpage.cgi?fileName=maturity&subdir=forPage#"
+                    }
+                ]
+            },
+            {
+                "producer_granule_id": "VNP09GA.A2021292.h22v16.001.2021293104223.h5",
+                "time_start": "2021-10-19T00:00:00.000Z",
+                "updated": "2021-10-20T06:45:21.315Z",
+                "dataset_id": "VIIRS/NPP Surface Reflectance Daily L2G Global 1km and 500m SIN Grid V001",
+                "data_center": "LPDAAC_ECS",
+                "title": "SC:VNP09GA.001:2497471486",
+                "coordinate_system": "GEODETIC",
+                "day_night_flag": "UNSPECIFIED",
+                "time_end": "2021-10-19T23:59:59.000Z",
+                "id": "G2147095743-LPDAAC_ECS",
+                "original_format": "ECHO10",
+                "granule_size": "183.76",
+                "browse_flag": true,
+                "polygons": [
+                    [
+                        "-79.9938 102.0408 -75.3402 -173.6535 -66.7527 163.4189 -69.4395 117.3504 -79.9938 102.0408"
+                    ]
+                ],
+                "collection_concept_id": "C1373412034-LPDAAC_ECS",
+                "online_access_flag": true,
+                "links": [
+                    {
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+                        "type": "application/x-hdfeos",
+                        "title": "VNP09GA.A2021292.h22v16.001.2021293104223.h5. MimeType: application/x-hdfeos",
+                        "hreflang": "en-US",
+                        "href": "https://e4ftl01.cr.usgs.gov//DP103/VIIRS/VNP09GA.001/2021.10.19/VNP09GA.A2021292.h22v16.001.2021293104223.h5"
+                    },
+                    {
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/browse#",
+                        "type": "image/jpeg",
+                        "title": "This Browse file may be downloaded directly from this link (BROWSE)",
+                        "hreflang": "en-US",
+                        "href": "https://e4ftl01.cr.usgs.gov//WORKING/BRWS/Browse.001/2021.10.20/BROWSE.VNP09GA.A2021292.h22v16.001.2021293104223.1.jpg"
+                    },
+                    {
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+                        "type": "text/xml",
+                        "title": "This Metadata file may be downloaded directly from this link (EXTENDED METADATA)",
+                        "hreflang": "en-US",
+                        "href": "https://e4ftl01.cr.usgs.gov//DP103/VIIRS/VNP09GA.001/2021.10.19/VNP09GA.A2021292.h22v16.001.2021293104223.h5.xml"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+                        "hreflang": "en-US",
+                        "href": "https://landweb.modaps.eosdis.nasa.gov/NPP_QA/"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+                        "hreflang": "en-US",
+                        "href": "https://doi.org/10.5067/VIIRS/VNP09GA.001"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+                        "hreflang": "en-US",
+                        "href": "https://e4ftl01.cr.usgs.gov/VIIRS/VNP09GA.001/"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+                        "hreflang": "en-US",
+                        "href": "https://earthexplorer.usgs.gov/"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+                        "hreflang": "en-US",
+                        "href": "https://search.earthdata.nasa.gov/search?q=C1373412034-LPDAAC_ECS"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+                        "hreflang": "en-US",
+                        "href": "https://opendap.cr.usgs.gov/opendap/hyrax/VNP09GA.001/contents.html"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+                        "hreflang": "en-US",
+                        "href": "https://lpdaac.usgs.gov/"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+                        "hreflang": "en-US",
+                        "href": "https://lpdaac.usgs.gov/documents/123/VNP09_User_Guide_V1.1.pdf"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+                        "hreflang": "en-US",
+                        "href": "https://lpdaac.usgs.gov/documents/124/VNP09_User_Guide_V1.6.pdf"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+                        "hreflang": "en-US",
+                        "href": "https://lpdaac.usgs.gov/documents/122/VNP09_ATBD.pdf"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+                        "hreflang": "en-US",
+                        "href": "https://appeears.earthdatacloud.nasa.gov/"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+                        "hreflang": "en-US",
+                        "href": "https://viirsland.gsfc.nasa.gov/Val/LSR_Val.html"
+                    },
+                    {
+                        "inherited": true,
+                        "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+                        "hreflang": "en-US",
+                        "href": "https://landweb.modaps.eosdis.nasa.gov/cgi-bin/NPP_QA/NPPpage.cgi?fileName=maturity&subdir=forPage#"
+                    }
+                ]
+            }
+        ]
+    }
+}
